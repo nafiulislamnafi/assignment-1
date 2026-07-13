@@ -98,7 +98,7 @@ section h2 {
 }
 
 .card {
-  border: 1px solid rgb(153, 149, 149);
+  border: .5px solid rgb(175, 173, 173);
   background: white;
   border-radius: 10px;
 }
@@ -131,4 +131,68 @@ section h2 {
   font-weight: bold;
   border-color: #2428f5;
   border: 0.5px solid;
+  cursor: pointer;
 }
+.pricing{
+  margin: auto;
+}
+
+.price-container{
+
+display: flex;
+justify-content: space-between; 
+margin-left: 270px;
+margin-right: 270px;
+
+
+
+}
+.price-card{
+  width: 280px;
+  background-color: white;
+  border: .5px solid #bbbaba;
+  padding: 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  color: #424141;
+margin-bottom: 50px;
+}
+
+.pro{
+
+  width: 280px;
+ border: .5px solid #bbbaba;
+  padding: 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+   background:#0d1c33;
+    color:#bbbaba;
+    margin-bottom: 50px;
+}
+.pro ul{
+  padding-left: 20px;
+  line-height: 2;
+}
+.price-card ul{
+  padding-left: 20px;
+  line-height: 2;
+}
+.pro .common-btn{
+  margin-top: 20px;
+}
+.price-card .normal-btn {
+  margin-top:20px;
+}
+
+.line {
+  border: none;
+  height: 2px;
+background-color: rgb(125, 126, 126);
+width: auto;
+
+}
+
+/* pricing section closed */
+
