@@ -85,8 +85,9 @@ nav {
 /* speaker section started */
 section h2 {
   text-align: center;
-  font-weight: 600;
+  font-weight: 800;
   margin-top: 80px;
+  font-size: 50px;
 }
 
 .speaker-container {
@@ -119,3 +120,15 @@ section h2 {
   border-top-right-radius: 10px;
 }
 /* speaker section closed*/
+
+/* pricing section styles  */
+
+.normal-btn {
+  border-radius: 10px;
+  background-color: white;
+  color: #2428f5;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-color: #2428f5;
+  border: 0.5px solid;
+}
