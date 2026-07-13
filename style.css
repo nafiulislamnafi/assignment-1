@@ -98,13 +98,15 @@ section h2 {
 }
 
 .card {
-  border: .5px solid rgb(175, 173, 173);
+  border: .5px solid #bbbaba;
   background: white;
   border-radius: 10px;
+  
 }
 
 .card-items {
-  margin: 5px;
+  margin: 10px;
+  padding: 15px;
   text-align: left;
 }
 .card-items span {
@@ -198,15 +200,74 @@ margin: 10px 0px;
 /* pricing section closed */
 
 /* something m issing section  */
+.venue{
 
+    width:1200px;
 
+    margin:100px auto;
+}
 
+.venue h2{
 
+    text-align:center;
 
+    font-size:50px;
 
+    margin-bottom:15px;
 
+    color:#0d1c33;
+}
 
+.venue-text{
 
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:60px;
+
+    font-size:18px;
+}
+
+.venue-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:30px;
+}
+
+.venuecard{
+
+    background:white;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    padding:35px;
+
+    box-shadow:0 5px 10px rgba(0,0,0,.08);
+}
+
+.venuecard h3{
+
+    color:#2d5bff;
+
+    margin-bottom:20px;
+
+    font-size:25px;
+}
+
+.venuecard p{
+
+    color:#555;
+
+    line-height:1.8;
+
+    font-size:18px;
+}
 
 
 /* something missing section close */
