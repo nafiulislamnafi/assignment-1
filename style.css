@@ -188,11 +188,55 @@ margin-bottom: 50px;
 
 .line {
   border: none;
-  height: 2px;
-background-color: rgb(125, 126, 126);
+  height: .5px;
+background-color: rgb(136, 136, 136);
 width: auto;
+margin: 10px 0px;
 
 }
 
 /* pricing section closed */
 
+/* something m issing section  */
+
+
+
+
+
+
+
+
+
+
+
+/* something missing section close */
+
+
+
+/* footer section styles */
+
+footer{
+
+  background-color: #0d1c33;
+  height: 70px;
+}
+.footer-container{
+ display: flex;
+ justify-content: space-between;
+ color: #bbbaba;
+ align-items: center;
+ margin: 50px;
+
+}
+.footerlinks{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.footerlinks a{
+
+  color: #bbbaba;
+  text-decoration: none;
+  margin-top: 25px;
+}
+/* footer closed */
